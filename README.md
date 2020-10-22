@@ -1,6 +1,6 @@
 # spotway_app
 
-A new Flutter project.
+A Blood Donation Flutter project.
 
 ## Getting Started
 
