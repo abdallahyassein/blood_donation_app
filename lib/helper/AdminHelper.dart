@@ -75,7 +75,7 @@ class AdminHelper {
     )
         .then((response) {
       if (response.data == null || response.data.length == 0) {
-        print("There are no Friend Requests right now");
+        print("There are no data right now");
       } else {
         data = response.data;
 
