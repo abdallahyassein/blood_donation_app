@@ -37,14 +37,14 @@ class Statistics {
     if (map == null) return null;
 
     return Statistics(
-      sumAPositive: int.parse(map['sumAPositive']),
-      sumANegative: int.parse(map['sumANegative']),
-      sumBPositive: int.parse(map['sumBPositive']),
-      sumBNegative: int.parse(map['sumBNegative']),
-      sumOPositive: int.parse(map['sumOPositive']),
-      sumONegative: int.parse(map['sumONegative']),
-      sumABPositive: int.parse(map['sumABPositive']),
-      sumABNegative: int.parse(map['sumABNegative']),
+      sumAPositive: int.parse(map['sumAPositive'].toString()),
+      sumANegative: int.parse(map['sumANegative'].toString()),
+      sumBPositive: int.parse(map['sumBPositive'].toString()),
+      sumBNegative: int.parse(map['sumBNegative'].toString()),
+      sumOPositive: int.parse(map['sumOPositive'].toString()),
+      sumONegative: int.parse(map['sumONegative'].toString()),
+      sumABPositive: int.parse(map['sumABPositive'].toString()),
+      sumABNegative: int.parse(map['sumABNegative'].toString()),
     );
   }
 
